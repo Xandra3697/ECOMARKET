@@ -1,3 +1,16 @@
+"""
+EcoMarket - Sistema básico de gestión de inventario (consola)
+Funciones:
+ - Registrar productos (CU01)
+ - Registrar entrada / reposición (CU02)
+ - Registrar venta / salida (CU03)
+ - Consultar stock en tiempo real (CU04)
+ - Reporte de bajo stock + exportar CSV (CU05)
+ - Cálculo valor inventario y recargo 8% (CU06)
+ - Historial de movimientos
+Almacenamiento en memoria usando dicts y listas. Interacción por consola.
+"""
+
 import datetime
 import csv
 import os
